@@ -12,7 +12,7 @@ model = Sequential([
     MaxPooling2D((2, 2)),
     Flatten(),
     Dense(128, activation='relu'),
-    Dense(26, activation='softmax')  # 26 classes for the alphabet
+    Dense(24, activation='softmax')  # 24 classes for the alphabet
 ])
 
 # Compile the model
